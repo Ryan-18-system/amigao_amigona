@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audio Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Audio para sua seratonina</h1>
+    <div class="audio-list">
+      <button class="audio-button" data-audio="audio/amigona.mp3">Play Amigona</button>
+      <button class="audio-button" data-audio="audio/cafezinho.mp3">Play Água</button>
+      <button class="audio-button" data-audio="audio/leg_day.mp3">Play no Leg Day</button>
+    </div>
+    <div class="audio-controls">
+      <button id="stopButton">Stop</button>
+    </div>
+  </div>
+  <audio id="audio"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
